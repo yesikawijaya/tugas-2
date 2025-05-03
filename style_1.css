@@ -1,0 +1,165 @@
+nav {
+    background-color: #60c0a8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(90, 30, 30);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00154d;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #318d0d;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(97, 86, 194, 0.2);
+}
+
+/* Tambahan supaya mirip nomor meja */
+.Rumah makan {
+    background: rgb(172, 18, 18);
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(204, 120, 120, 0.2);
+}
+.Rumah makan p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Rumah makan h1 {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.Rumah makan img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Style untuk halaman fasilitas */
+.deskripsi {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(61, 26, 26);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.deskripsi h2 {
+    text-align: left;
+    color: #00b386;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+th, td {
+    border: 1px solid #c56868;
+    padding: 12px 15px;
+    text-align: left;
+}
+th {
+    background-color: #00b386;
+    color: rgb(75, 9, 9);
+}
+
+tr:nth-child(even) {
+    background-color: #7a0707;
+}
+
+tr:hover {
+    background-color: #073634;
+}
+/* Style untuk halaman menu makan */
+.menu makan {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(128, 122, 122);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu makan h2 {
+    text-align: left;
+    color: #4b8174;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #e04d4d;
+}
+
+th, td {
+    border: 1px solid #e26a6a;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #279277;
+    color: rgb(133, 32, 32);
+}
+
+tr:nth-child(even) {
+    background-color: #d81b1b;
+}
+
+tr:hover {
+    background-color: #751358;
+}
